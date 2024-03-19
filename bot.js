@@ -5,7 +5,7 @@ const { priceCommand } = require('./runestone');
 const { messageCommand } = require('./message');
 const { coinPriceCommand } = require('./coin');
 
-const botKey = '6140709898:AAEyDcq41y0J6o4bIHnXR0Ddmnx20nPIR-Y';
+const botKey = '';
 
 // 创建一个 GrammY 机器人实例
 const bot = new Bot(botKey, {

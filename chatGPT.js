@@ -1,7 +1,7 @@
 const { OpenAIApi } = require('openai');
 
 // 初始化 OpenAI API
-const openai = new OpenAIApi('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');
+const openai = new OpenAIApi('');
 
 // 定义生成对话文本的函数
 async function generateResponse(prompt) {
