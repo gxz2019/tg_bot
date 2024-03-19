@@ -5,7 +5,7 @@ const { priceCommand } = require('./runestone');
 const { messageCommand } = require('./message');
 const { coinPriceCommand } = require('./coin');
 
-const botKey = '';
+const botKey = process.env.TG_BOT_TOKEN;
 
 // 创建一个 GrammY 机器人实例
 const bot = new Bot(botKey, {
